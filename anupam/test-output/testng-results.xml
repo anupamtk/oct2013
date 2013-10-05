@@ -1,0 +1,24 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="BulkRedesignTestSuite" duration-ms="37331" started-at="2013-10-05T12:24:21Z" finished-at="2013-10-05T12:24:58Z">
+    <groups>
+      <group name="new">
+        <method signature="com.anupam.testFirst.test1(org.testng.ITestContext)" name="test1" class="com.anupam.testFirst"/>
+      </group>
+    </groups>
+    <test name="My test" duration-ms="37331" started-at="2013-10-05T12:24:21Z" finished-at="2013-10-05T12:24:58Z">
+      <class name="com.anupam.testFirst">
+        <test-method status="PASS" signature="test1(org.testng.ITestContext)" name="test1" duration-ms="36775" started-at="2013-10-05T12:24:21Z" finished-at="2013-10-05T12:24:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@13c3750]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

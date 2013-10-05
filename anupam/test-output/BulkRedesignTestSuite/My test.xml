@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="asd-PC" name="com.anupam.testFirst" tests="1" failures="0" timestamp="5 Oct 2013 06:54:58 GMT" time="37.331" errors="0">
+  <testcase name="test1" time="36.775" classname="com.anupam.testFirst"/>
+</testsuite>

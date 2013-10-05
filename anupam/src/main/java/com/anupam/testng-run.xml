@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" > 
+<suite name="BulkRedesignTestSuite" parallel="methods" verbose="1" thread-count="5">
+<!-- 	<listeners>
+		<listener class-name="com.ebay.maui.reporter.HTMLReporter" />
+		<listener class-name="com.ebay.maui.util.internal.vi.ValidateInternalListener" />
+		<listener class-name="com.ebay.maui.util.internal.context.APIContextListener" /> 
+      </listeners>
+ -->      
+<!--     <parameter name="ruleFile" value="base" />
+    <parameter name="calAnalysisEnabled" value="true" />
+	
+	<parameter name="poolType" value="qa" />
+	<parameter name="pool" value="staging" />
+	<parameter name="localizedBuild" value="true" /> 
+	<parameter name="site" value="US" />
+	<parameter name="browser" value="*firefox" />
+	
+	<parameter name="webRunMode" value="LocallyOnRC" />
+	<parameter name="webDriverGrid" value="http://grid.qa.ebay.com:8080/wd/hub" />
+	<parameter name="openReportInBrowser" value="firefox" />
+	<parameter name="urlConvertClass" value="com.ebay.maui.util.internal.web.URLConverter" />	
+	<parameter name="viEndPoint" value="http://signin.qa.ebay.com/admin/v3console/ValidateInternals" />	
+	<parameter name ="setAssumeUntrustedCertificateIssuer" value="false" /> 
+	<parameter name="TestFilterType" value="" /> 
+	 
+	
+	<parameter name="item" value="API" />	 
+		
+	<parameter name="checkout" value="WEB" />
+	<parameter name="PSLEntryPoint" value="SOLD_CONTAINER" />
+	<parameter name="Label" value="WEB" />
+	<parameter name="LabelFlowType"	value="NEW_BULK_PSL" />
+	<parameter name ="setAssumeUntrustedCertificateIssuer" value="false" />   
+	<parameter name="setAcceptUntrustedCertificates" value="true"/>
+	
+	<parameter name="customNAME" value="JUSTLIKE212"></parameter>
+	<parameter name="buying" value="PLACE_OFFER_API"></parameter> 
+	<parameter name="version" value="775"></parameter>
+	
+	<parameter name="apiSchmaEndPoint" value="http://eazye.qa.ebay.com:80/ws/api.dll" />  
+	<parameter name="apiSoapEndPoint" value="http://eazye.qa.ebay.com:8080/wsapi"/>         
+	<parameter name="apiCsEndPoint" value="http://tv3apicore.qa.ebay.com:8080/ws/websvc/eBayCSAPI" />
+	<parameter name="apiVersion" value="775" />
+	<parameter name="apiCertName" value="AdminCertificate" />
+	<parameter name="apiAppName" value="AdminApp" />
+	<parameter name="apiDevName" value="Admintest1" />
+	<parameter name="apiDetailLevel" value="4" />
+	<parameter name="apiCsAppName" value="sttiApplication1" />
+	<parameter name="apiCsDevName" value="sttiDeveloper" />
+	<parameter name="apiCsCertName" value="sttiCertificate" />
+	
+	<parameter name="RaptorPool" value="qa1"></parameter>
+ -->	
+ <parameter name="abc" value="this is parameter value" />
+	<test name="My test">
+		<groups>
+			<run>
+				<include name="new"/>				
+			</run>
+		</groups> 
+		<packages>
+		    <package name="com.anupam"/>
+		</packages>	
+	</test>
+</suite>
