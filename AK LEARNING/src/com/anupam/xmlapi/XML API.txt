@@ -1,0 +1,20 @@
+Overview/Description
+To use APIs to manage DOM and SAX models of XML data
+
+Target Audience
+Existing application and web developers wishing to attain competency in the use of advanced XML techniques; systems analysts and systems designers needing a thorough knowledge of XML for the development of web-enabled applications.
+
+Expected Duration
+100 Minutes
+
+Objectives
+
+XML APIs
+# identify the node types that comprise a DOM tree structure.
+# use methods provided by the DOM interfaces.
+# use DOM methods and properties to process XML.
+# outline the key features of the Simple API for XML.
+# use the interfaces and methods of the SAX API.
+# process XML using SAX.
+
+ID: 213609_eng 

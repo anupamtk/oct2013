@@ -1,0 +1,10 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10" started-at="2013-10-02T18:23:10Z" finished-at="2013-10-02T18:23:10Z">
+    <groups>
+    </groups>
+    <test name="com.anupam.testngex.JustLikeThat" duration-ms="10" started-at="2013-10-02T18:23:10Z" finished-at="2013-10-02T18:23:10Z">
+    </test>
+  </suite>
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<customerList>
+	<customer customerID="jgol001">
+		<name>Jonathan Gold</name>
+		<phoneNumber>555-326-7890</phoneNumber>
+	</customer>
+	<customer customerID="cpow001">
+		<name>Chadrick Powell</name>
+		<phoneNumber>555-214-5793</phoneNumber>
+	</customer>
+	<customer customerID="asua001">
+		<name>Antonia Suares</name>
+		<phoneNumber>617-328-4765</phoneNumber>
+	</customer>
+	<customer customerID="jwoo001">
+		<name>Jon Woo</name>
+		<phoneNumber>709-265-4976</phoneNumber>
+	</customer> 
+</customerList>

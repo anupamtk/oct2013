@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!--  A list of Easy Nomad Travel customers  -->
+
+<customerList>
+	<customer customerID="jgol001">
+		<name>Jonathan Gold</name>
+		<address>228 Merchants Rd, Salem, MA</address>
+	</customer>
+	<customer customerID="cpow034">
+		<name>Chadrick Powell</name>
+		<address>332 Bruggerman Place, Hampden, NY</address>
+	</customer>
+	<customer customerID="asua023">
+		<name>Antonia Suares</name>
+		<address>4803 Long Street, Miami, FLA</address>
+	</customer>
+</customerList>

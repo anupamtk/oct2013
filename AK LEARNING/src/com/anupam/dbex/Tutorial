@@ -1,0 +1,18 @@
+Hi Team: - 
+ PFB the steps for creating the database and datasource in your machine (Local / Remote)  
+===================================================================
+I)                    To create the Database in MS access.
+
+1)      Select  start ‡All  Programs ‡Microsoft office ‡ Microsoft access , MS access will be opened.
+2)      Select  file ‡ New ‡ Give the name for the database as   eCAF_DB  (DBTest.mdb) and save it in the C:\ eCAF  location . 
+II)                  To Create the Datasource in ODBC driver.    
+
+                1 )     click start ‡ control panel ‡administrative tools‡Data sources(ODBC).
+
+3)       A Dialog box named ODBC data source administrator will be opened.
+                 4)     Click the tab User DSN. 
+                 5)     In that ,click the add button, a dialog box named Create a new data source will be opened, in that select the desired driver(ex. MS access Driver)
+                6)     The ODBC MS access driver setup dialog box will be opened , in that  click the select button and browse   the location of  database  eCAF_DB  as C:\ eCAF \ eCAF_DB .mdb   (F:\Eclipse\Database\DBTest.mdb) and set the data source name UnifyDS  (MyTestDS) and then click finish.
+               7)     Now you can see  the data source name added to the User DSN ,then click ok to close that dialog box.
+
+Now that data source is created and the database also created in your machine is added to that data source in the ODBC driver.

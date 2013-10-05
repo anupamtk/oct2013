@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="asd-PC" name="com.anupam.testngex.TestCalculator" tests="3" failures="0" timestamp="2 Oct 2013 12:14:43 GMT" time="0.034" errors="0">
+  <testcase name="addTest" time="0.007" classname="com.anupam.testngex.TestCalculator"/>
+  <testcase name="mulTest" time="0.002" classname="com.anupam.testngex.TestCalculator"/>
+  <testcase name="subTest" time="0.002" classname="com.anupam.testngex.TestCalculator"/>
+</testsuite>
