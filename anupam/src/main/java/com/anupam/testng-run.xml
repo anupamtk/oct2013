@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" > 
-<suite name="BulkRedesignTestSuite" parallel="methods" verbose="1" thread-count="5">
+<suite name="BulkRedesignTestSuite" parallel="methods" verbose="1" thread-count="1">
  <parameter name="abc" value="this is parameter value" />
  <parameter name="browser" value="chrome" /> <!--"firefox" or "ie" or "chrome" -->
  

@@ -15,10 +15,10 @@ import org.testng.annotations.Test;
 @Test
 public class BaseTest {
 	
-	protected static WebDriver driver;
+	protected WebDriver driver;
 	
-	@BeforeClass(alwaysRun=true)
-	 public static void beforeClass(ITestContext ctx)
+	@BeforeMethod(alwaysRun=true)
+	 public void beforeMethod(ITestContext ctx)
 	 {
 		/*Step 1: In order to run, we need to download IE Driver & Chrome Driver and we can download from https://code.google.com/p/selenium/downloads/list?can=2&q=IE
 			http://chromedriver.storage.googleapis.com/index.html*/
@@ -38,9 +38,10 @@ public class BaseTest {
 		}
 	  }
 	
-	@AfterClass(alwaysRun=true)
-	 public static void afterClass()
+	@AfterMethod(alwaysRun=true)
+	 public void afterMethod()
 	 {
+		driver.close();
 	  driver.quit();
 	 }
 
