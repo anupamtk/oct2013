@@ -5,6 +5,7 @@ public interface Cars {
 	
 	void drive();
 	void applyBreak();
+	String whoAmI();
 	
 
 }

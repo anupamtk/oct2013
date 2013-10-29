@@ -22,4 +22,9 @@ public class WagonR implements Cars{
 		
 	}
 
+	@Override
+	public String whoAmI() {
+		return "I am WagonR";
+	}
+
 }

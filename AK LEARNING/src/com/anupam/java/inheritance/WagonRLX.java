@@ -9,5 +9,10 @@ public class WagonRLX extends WagonR{
 	public void driftMe() {
 		System.out.println("Drifting car " + carType + model);
 	}
+	
+	@Override
+	public String whoAmI() {
+		return "I am WagonR LX model";
+	}
 
 }
